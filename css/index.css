@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width:345px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:20px 10px;
+    margin:30px 30px;
+}
+.inputBox{
+    width:345px;
+    margin:0 auto 10px;
+    position:relative;
+}
+.inputBox .inputCaptcha{
+    display:inline-block;
+    height:50px;
+    width:86%;
+    text-indent:1em;
+    border:1px solid #ddd;
+    border-radius:5px;
+}
+.inputBox .captchaIcon{
+    display:none;
+    position:absolute;
+    top:50%;
+    right:0px;
+    margin-top:-16px;
+    width:32px;
+    height:32px;
+    background-size:100% 100%;
+}
+.errorText{
+    width:345px;
+    margin:0 auto;
+    font-size:12px;
+    color:red;
+    display:none;
+}
+.canvasBox{
+    width:345px;
+    margin:10px auto;
+    position:relative;
+}
+
+#canvasCaptcha{    
+    border-radius:10px;
+}
+.canvasBox .refresh{
+    width:34px;
+    height:34px;
+    position:absolute;
+    right:0px;
+    top:50%;
+    margin-top:-17px;
+    border:0;
+    border-radius:6px;
+    background-image:url('../images/update.png');
+    background-size:cover;
+    
+}
+.captchaSubmit{
+
+    padding:10px 20px;
+    background-color:#62b900;
+    border:0;
+    font-size:20px;
+    border-radius:5px;
+    color:#fff;
+}
+
+
